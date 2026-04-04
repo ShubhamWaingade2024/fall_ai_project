@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+fastapi
+uvicorn
+ultralytics
+opencv-python
+torch
+torchvision
+streamlit
+requests
+openai
+python-multipart
+pydantic
+numpy
+=======
+fastapi
+uvicorn
+ultralytics
+opencv-python
+torch
+torchvision
+streamlit
+requests
+openai
+python-multipart
+pydantic
+numpy
+>>>>>>> d8c1de1dbc2668ac7a40294410d4b82cf32e1fd3
+pillow
