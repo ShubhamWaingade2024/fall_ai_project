@@ -51,6 +51,7 @@ Event Engine triggers:
 ## 🔄 Core Workflow
 
 Detection Pipeline:
+
 Detection → Verification → Classification → Alert Decision
 
 System Logic:
@@ -180,9 +181,11 @@ python -m venv .venv
 ### ▶️ Activate environment
 
 Windows:
+
 .venv\\Scripts\\activate
 
 Linux/Mac:
+
 source .venv/bin/activate
 
 ---
@@ -198,15 +201,21 @@ pip install fastapi uvicorn ultralytics opencv-python torch requests openai pyth
 ### 🔑 Environment configuration
 
 Edit:
+
 backend/config.py
 
 Add:
+
 TELEGRAM_TOKEN="YOUR TOKEN"
+
 CHAT_ID="YOUR CHAT ID"
+
 OPENAI_KEY="YOUR KEY"
+
 GOOGLE_KEY="YOUR KEY"
 
 LAT=18.5204
+
 LON=73.8567
 
 ---
@@ -216,6 +225,7 @@ LON=73.8567
 uvicorn main:app --reload
 
 Backend:
+
 http://127.0.0.1:8000
 
 ---
@@ -239,6 +249,7 @@ pip install streamlit requests
 streamlit run app.py
 
 Frontend:
+
 http://localhost:8501
 
 ---
@@ -252,6 +263,7 @@ POST /detect
 Detects fall from uploaded video.
 
 Returns:
+
 incident_id  
 confidence  
 status  
@@ -288,10 +300,21 @@ Solved through debugging and modular design.
 
 ---
 
+## 📈 Learning Outcomes
+
+Computer Vision deployment  
+Backend engineering  
+System design thinking  
+API integration  
+Real-time processing  
+Debugging production issues  
+
+---
+
 ## 🚀 Future Improvements
 
 • Live webcam detection  
-• Multi-camera monitoring  
+• Multi camera monitoring  
 • Incident database  
 • Cloud deployment  
 • Edge deployment (Jetson Nano)  
@@ -304,4 +327,5 @@ Solved through debugging and modular design.
 ## 👨‍💻 Author
 
 Shubham Waingade
+
 AI Engineer | Embedded Systems | VLSI
